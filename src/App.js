@@ -5,13 +5,16 @@ import { Route, Routes } from "react-router-dom";
 import Game from "./pages/game";
 import Scores from "./pages/scores";
 import AllScores from "./pages/allscores";
+import Home from "./pages/home";
 
 function App() {
   return (
     <div className="App">
       <Header />
       <Routes>
-        <Route to="/">Home</Route>
+        <Route path="/" element={<Home />}>
+          Home
+        </Route>
         <Route path="/trivia" element={<Game />}>
           Trivia App
         </Route>
