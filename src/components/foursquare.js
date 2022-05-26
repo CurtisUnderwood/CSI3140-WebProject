@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./css/foursquare.css";
+import "./css/foursquare-themes.css";
 import A from "../icons/A.svg";
 import B from "../icons/B.svg";
 import C from "../icons/C.svg";
@@ -8,7 +9,13 @@ import D from "../icons/D.svg";
 class FourSquare extends Component {
   render() {
     return (
-      <div className="foursquare shadow">
+      <div
+        className={
+          "foursquare " +
+          (this.props.white ? "white-background " : undefined) +
+          (this.props.shadow ? "shadow " : undefined)
+        }
+      >
         <div className="square a">
           <img src={A}></img>
           <span>{this.props.A}</span>
@@ -36,6 +43,8 @@ FourSquare.defaultProps = {
   B: "Wind",
   C: "Fire",
   D: "Water",
+  white: true,
+  shadow: true,
 };
 
 export { FourSquare };
