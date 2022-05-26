@@ -4,6 +4,7 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Game from "./pages/game";
 import Scores from "./pages/scores";
+import AllScores from "./pages/allscores";
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
         </Route>
         <Route path="/highscores" element={<Scores />}>
           Highscores
+        </Route>
+        <Route path="/highscores/all" element={<AllScores />}>
+          See all highscores
         </Route>
       </Routes>
     </div>
