@@ -1,10 +1,7 @@
 import React, { Component } from "react";
 import "./css/foursquare.css";
 import "./css/foursquare-themes.css";
-import A from "../icons/A.svg";
-import B from "../icons/B.svg";
-import C from "../icons/C.svg";
-import D from "../icons/D.svg";
+import { A, B, C, D } from "../icons";
 
 class FourSquare extends Component {
   render() {
@@ -25,7 +22,6 @@ class FourSquare extends Component {
           <img src={B}></img>
           <span>{this.props.B}</span>
         </button>
-
         <button className="square c">
           <img src={C}></img>
           <span>{this.props.C}</span>

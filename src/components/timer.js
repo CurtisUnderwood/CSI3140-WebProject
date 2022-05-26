@@ -16,7 +16,14 @@ function Timer({ durationSeconds = 60, start = true, onExpire = () => {} }) {
 
   return (
     <div className="heading timer">
-      <span>{minutes}</span>:<span>{seconds}</span>
+      <span>{minutes}</span>:
+      <span>
+        {!seconds || seconds == 0
+          ? "00"
+          : "" + seconds < 10
+          ? "0"
+          : "" + seconds}
+      </span>
     </div>
   );
 }

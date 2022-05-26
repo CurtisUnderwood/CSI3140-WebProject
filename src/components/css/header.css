@@ -18,6 +18,21 @@
   display: inline-block;
 }
 
+.home > a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.highscore > a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.title > a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
 .logo {
   grid-column: 2;
   display: inline-block;
@@ -33,6 +48,8 @@
   grid-column: 4;
   text-align: left;
   padding-right: fill;
+  color: #ffffff;
+  text-decoration: none;
   padding-left: 40px;
   display: inline-block;
 }
