@@ -11,19 +11,13 @@ function Timer({ durationSeconds = 60, start = true, onExpire = () => {} }) {
   const { seconds, minutes } = useTimer({
     expiryTimestamp: getExpiryTimestamp(),
     autoStart: start,
-    onExpire: () => console.warn("onExpire called"),
+    onExpire: () => console.log("Timer expired!"),
   });
 
   return (
     <div className="heading timer">
       <span>{minutes}</span>:
-      <span>
-        {!seconds || seconds == 0
-          ? "00"
-          : "" + seconds < 10
-          ? "0"
-          : "" + seconds}
-      </span>
+      <span>{!seconds ? "00" : "" + seconds < 10 ? "0" : "" + seconds}</span>
     </div>
   );
 }
