@@ -1,14 +1,13 @@
 .header {
-  grid-column: col / span 3;
   padding-top: 20px;
   padding-bottom: 20px;
   height: 60px;
-  grid-row: row;
   display: grid;
   grid-gap: 10px;
   grid-template-columns: 1fr auto auto 1fr;
   color: #ffffff;
   align-items: center;
+  text-align: center;
 }
 
 .home {
