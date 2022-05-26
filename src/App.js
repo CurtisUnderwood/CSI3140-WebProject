@@ -3,6 +3,7 @@ import { Header, Timer, FourSquare } from "./components";
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Game from "./pages/game";
+import Scores from "./pages/scores";
 
 function App() {
   return (
@@ -13,7 +14,9 @@ function App() {
         <Route path="/trivia" element={<Game />}>
           Trivia App
         </Route>
-        <Route to="highscores">Highscores</Route>
+        <Route path="/highscores" element={<Scores />}>
+          Highscores
+        </Route>
       </Routes>
     </div>
   );

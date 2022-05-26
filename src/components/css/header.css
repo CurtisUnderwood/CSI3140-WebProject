@@ -18,17 +18,7 @@
   display: inline-block;
 }
 
-.home > a {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.highscore > a {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.title > a {
+.link {
   color: #ffffff;
   text-decoration: none;
 }
@@ -44,7 +34,7 @@
   display: inline-block;
 }
 
-.highscore {
+.highscores {
   grid-column: 4;
   text-align: left;
   padding-right: fill;

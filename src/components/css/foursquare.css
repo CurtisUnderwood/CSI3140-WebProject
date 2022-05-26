@@ -15,22 +15,12 @@
   font: inherit;
   color: inherit;
   text-align: left;
-  display: grid;
-  grid-template-columns: auto 1fr;
   display: inline-block;
   border-radius: 15px;
 }
 
 .square > img {
-  grid-column: 1;
-  grid-row: 1;
-  display: inline-block;
   vertical-align: middle;
-}
-
-.square > span {
-  grid-column: 2;
-  grid-row: 1;
 }
 
 .a {

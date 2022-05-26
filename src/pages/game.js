@@ -1,8 +1,7 @@
-import { Header } from "../components/header.js";
-import React, { Flexbox, Component } from "react";
+import React, { Component } from "react";
 import { FourSquare } from "../components/foursquare";
 import { Timer } from "../components/timer";
-import "./game.css";
+import "./css/game.css";
 
 export default class Game extends Component {
   render() {

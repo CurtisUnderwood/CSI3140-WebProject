@@ -1,0 +1,35 @@
+.score-card {
+  width: 200px;
+  border-radius: 15px;
+  color: #6a5be1;
+  text-align: left;
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: #ffffff;
+  font-size: 25px;
+}
+
+.normal-score {
+  color: #ffffff;
+  font-size: 18px;
+  background-color: #6a5be1;
+}
+
+.normal-score > div {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.score-card-dot {
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  background-color: #6a5be1;
+  color: #ffffff;
+  margin-right: 20px;
+  line-height: 50px;
+  font-size: 25px;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+}
