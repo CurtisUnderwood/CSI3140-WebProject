@@ -13,26 +13,27 @@ class FourSquare extends Component {
         className={
           "foursquare " +
           (this.props.white ? "white-background " : undefined) +
+          (this.props.large ? "large " : "small") +
           (this.props.shadow ? "shadow " : undefined)
         }
       >
-        <div className="square a">
+        <button className="square a">
           <img src={A}></img>
           <span>{this.props.A}</span>
-        </div>
-        <div className="square b">
+        </button>
+        <button className="square b">
           <img src={B}></img>
           <span>{this.props.B}</span>
-        </div>
+        </button>
 
-        <div className="square c">
+        <button className="square c">
           <img src={C}></img>
           <span>{this.props.C}</span>
-        </div>
-        <div className="square d">
+        </button>
+        <button className="square d">
           <img src={D}></img>
           <span>{this.props.D}</span>
-        </div>
+        </button>
       </div>
     );
   }
@@ -45,6 +46,7 @@ FourSquare.defaultProps = {
   D: "Water",
   white: true,
   shadow: true,
+  large: true,
 };
 
 export { FourSquare };
