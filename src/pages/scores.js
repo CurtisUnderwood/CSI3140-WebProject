@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./css/scores.css";
+import "../styles.css";
 import { Topscore, Score } from "../components";
 import { Link } from "react-router-dom";
 
@@ -26,20 +26,20 @@ export default class Scores extends Component {
 Scores.defaultProps = {
   highscores: [
     {
-      score: -1,
-      username: "Undefined",
+      score: 10,
+      username: "Player Name",
     },
     {
-      score: -1,
-      username: "Undefined",
+      score: 4,
+      username: "Username",
     },
     {
-      score: -1,
-      username: "Undefined",
+      score: -2,
+      username: "Sample Name",
     },
     {
-      score: -1,
-      username: "Undefined",
+      score: 1,
+      username: "Name Name",
     },
   ],
 };

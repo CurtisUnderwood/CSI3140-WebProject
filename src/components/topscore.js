@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./css/score-card.css";
+import "../styles.css";
 
 class Topscore extends Component {
   render() {

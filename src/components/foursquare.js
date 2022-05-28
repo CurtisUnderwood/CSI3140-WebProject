@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import "./css/foursquare.css";
-import "./css/foursquare-themes.css";
+import "../styles.css";
 import { A, B, C, D } from "../icons";
 
 class FourSquare extends Component {

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { FourSquare } from "../components/foursquare";
 import { Timer } from "../components/timer";
-import "./css/game.css";
+import "../styles.css";
 
 export default class Game extends Component {
   render() {

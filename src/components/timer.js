@@ -1,5 +1,5 @@
 import React from "react";
-import "./css/heading.css";
+import "../styles.css";
 import { useTimer } from "react-timer-hook";
 
 function Timer({ durationSeconds = 60, start = true, onExpire = () => {} }) {

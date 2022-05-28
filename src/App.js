@@ -1,4 +1,4 @@
-import "./App.css";
+import "./styles.css";
 import { Header, Timer, FourSquare } from "./components";
 import React from "react";
 import { Route, Routes } from "react-router-dom";

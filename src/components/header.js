@@ -1,5 +1,5 @@
 import logo from "../icons/logo.svg";
-import "./css/header.css";
+import "../styles.css";
 import { Link } from "react-router-dom";
 
 function Header() {
@@ -12,7 +12,7 @@ function Header() {
       </div>
       <img src={logo} className="logo"></img>
       <div className="title">
-        <Link to="/trivia" className="link">
+        <Link to="/" className="link">
           Trivia App
         </Link>
       </div>
