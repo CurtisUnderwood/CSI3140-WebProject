@@ -1,3 +1,5 @@
+Anthony Zhao 300130883 and Curtis Underwood 300136055
+
 # NPM Information
 
 This project uses npm@8.10.0 and before running it you need to run npm i to install all the necessary packages.
