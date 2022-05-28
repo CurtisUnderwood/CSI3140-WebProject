@@ -1,3 +1,7 @@
+# NPM Information
+
+This project uses npm@8.10.0 and before running it you need to run npm i to install all the necessary packages.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
