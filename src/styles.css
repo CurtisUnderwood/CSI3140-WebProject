@@ -14,7 +14,7 @@
 }
 .question {
   margin-top: 20px;
-  font-size: 24px;
+  font-size: 40px;
   max-width: 50%;
   flex-wrap: wrap;
   font-weight: 800;
@@ -215,7 +215,8 @@ button:hover {
 .timer {
   font-style: normal;
   font-weight: 800;
-  font-size: 40px;
+  font-size: 30px;
+  margin-top: 10px;
   line-height: 60px;
   /* identical to box height */
   text-align: center;
@@ -223,9 +224,8 @@ button:hover {
 .game-score {
   font-style: normal;
   font-weight: 800;
-  font-size: 80px;
-  line-height: 60px;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  font-size: 30px;
   /* identical to box height */
   text-align: center;
   color: #ffffff;
