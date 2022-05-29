@@ -1,5 +1,5 @@
 import "./styles.css";
-import { Header, Timer, FourSquare } from "./components";
+import { Header } from "./components";
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Game from "./pages/game";
