@@ -7,6 +7,7 @@ export default class Game extends Component {
   render() {
     return (
       <div className="game">
+        <span className="game-score">1</span>
         <Timer />
         <span className="question">{this.props.question}</span>
         <FourSquare />
