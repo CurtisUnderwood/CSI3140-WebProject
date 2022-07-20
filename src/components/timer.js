@@ -2,7 +2,7 @@ import React from "react";
 import "../styles.css";
 import { useTimer } from "react-timer-hook";
 
-function Timer({ durationSeconds = 60, start = true, onExpire = () => {} }) {
+function Timer({ durationSeconds = 60, handleExpire = () => {} }) {
   function getExpiryTimestamp() {
     const time = new Date();
     time.setSeconds(time.getSeconds() + durationSeconds);
@@ -10,8 +10,8 @@ function Timer({ durationSeconds = 60, start = true, onExpire = () => {} }) {
   }
   const { seconds, minutes } = useTimer({
     expiryTimestamp: getExpiryTimestamp(),
-    autoStart: start,
-    onExpire: () => console.log("Timer expired!"),
+    autoStart: true,
+    onExpire: handleExpire,
   });
 
   return (

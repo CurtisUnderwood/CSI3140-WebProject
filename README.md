@@ -1,5 +1,10 @@
 Anthony Zhao 300130883 and Curtis Underwood 300136055
 
+# Known Issues
+
+We are having trouble having the highscore persist, most likely due to the lack of backend implementation
+We decided not to worry about it because we were supposed to do a backend not try to hack react and store a variable to persit
+
 # NPM Information
 
 This project uses npm@8.10.0 and before running it you need to run npm i to install all the necessary packages.

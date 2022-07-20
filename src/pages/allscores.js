@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "../styles.css";
 import { Link } from "react-router-dom";
+import { highscores } from "./game";
 
 export default class AllScores extends Component {
   render() {
@@ -8,7 +9,7 @@ export default class AllScores extends Component {
       <div className="scores">
         <div className="heading score-title">Highscores</div>
         <ol>
-          {this.props.highscores.map((highscore) => (
+          {highscores.map((highscore) => (
             <li>{highscore.username + ": " + highscore.score}</li>
           ))}
         </ol>
@@ -19,24 +20,3 @@ export default class AllScores extends Component {
     );
   }
 }
-
-AllScores.defaultProps = {
-  highscores: [
-    {
-      score: -1,
-      username: "Undefined",
-    },
-    {
-      score: -1,
-      username: "Undefined",
-    },
-    {
-      score: -1,
-      username: "Undefined",
-    },
-    {
-      score: -1,
-      username: "Undefined",
-    },
-  ],
-};

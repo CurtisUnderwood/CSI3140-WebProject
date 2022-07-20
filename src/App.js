@@ -2,12 +2,12 @@ import "./styles.css";
 import { Header } from "./components";
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import Game from "./pages/game";
+import { Game } from "./pages/game";
 import Scores from "./pages/scores";
 import AllScores from "./pages/allscores";
 import Home from "./pages/home";
-import { Helmet } from 'react-helmet'
-import logo from './icons/logo.svg'
+import { Helmet } from "react-helmet";
+import logo from "./icons/logo.svg";
 
 function App() {
   return (
