@@ -112,58 +112,17 @@ button:hover {
   text-align: left;
   border-radius: 15px;
   box-sizing: border-box;
+  background-color:white;
 }
-.square {
-  border: none;
-  font: inherit;
-  color: inherit;
-  text-align: left;
-  display: inline-block;
-  border-radius: 15px;
+
+.foursquare button{
+  padding:20px;
+  width:200px;
+  border:2px solid white;
+  margin:5px;
+  border-radius:5px;
 }
-.square > img {
-  vertical-align: middle;
-}
-.a {
-  grid-column: 1;
-  grid-row: 1;
-  background-color: #67e383;
-}
-.b {
-  grid-column: 2;
-  grid-row: 1;
-  background-color: #f0f277;
-}
-.c {
-  grid-column: 1;
-  grid-row: 2;
-  background-color: #fe9494;
-}
-.d {
-  grid-column: 2;
-  grid-row: 2;
-  background-color: #b9c8ff;
-}
-.large {
-  grid-gap: 20px;
-  padding-left: 25px;
-  padding-right: 25px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  width: 80%;
-}
-.large > button > img {
-  margin-right: 20px;
-}
-.large > button {
-  padding: 8px;
-}
-.shadow {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.white-background {
-  background-color: #ffffff;
-}
+
 /* header */
 .header {
   padding-top: 20px;
